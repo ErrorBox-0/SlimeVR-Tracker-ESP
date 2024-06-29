@@ -28,7 +28,7 @@
 #define SENSOR_USE_BASICVQF (SENSOR_FUSION_TYPE == SENSOR_FUSION_BASICVQF)
 #define SENSOR_USE_VQF (SENSOR_FUSION_TYPE == SENSOR_FUSION_VQF)
 
-
+#define USE_TEMP_CALIBRATION true
 #include "../motionprocessing/types.h"
 
 #include "mahony.h"
